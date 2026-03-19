@@ -18,6 +18,7 @@
 - **Single source of truth** -- Beamer `.tex` is authoritative; Quarto `.qmd` derives from it
 - **Quality gates** -- nothing ships below 80/100
 - **[LEARN] tags** -- when corrected, save `[LEARN:category] wrong → right` to MEMORY.md
+- **File operation permission** -- before executing any Edit, Write, `mv`, `rm`, or `rmdir` operation, state in chat: (1) which file(s) will be affected, (2) what the operation is, and (3) why. Wait for explicit confirmation ("yes", "go ahead", etc.) before proceeding.
 
 ---
 
